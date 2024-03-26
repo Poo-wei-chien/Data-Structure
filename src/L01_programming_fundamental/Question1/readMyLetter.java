@@ -16,7 +16,7 @@ public class readMyLetter {
         System.out.println("Reading File from Java code");
 
         //Name of the file
-        String fileName="L1_dummy_files/Rain_12345678.txt"; //file stored at the same level as src folder
+        String fileName="dummy_files/Rain_12345678.txt"; //file stored at the same level as src folder
         try{
             //Create object of FileReader
             FileReader inputFile = new FileReader(fileName);
