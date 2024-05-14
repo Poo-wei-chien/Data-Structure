@@ -32,7 +32,7 @@ public class TestListBasedQueue_Lab {
                 if ("Sell".equals(BuySell)) {
                     System.out.println("Selling the shares now...");
                     int ShareForSell = Integer.parseInt(NoOfShare);
-//Quantity of Shares to be sold
+                    //Quantity of Shares to be sold
                     int RemainingShareInQueue = 0;
                     //Remaining Share in the queue after being sold
                     do {
